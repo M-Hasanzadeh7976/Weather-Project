@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Project</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="location">
+        <form action="">
+          <input class="cities-menu" type="checkbox" />
+          <label for="">
+            <img src="images/location-icon.svg" alt="location-icon" />
+          </label>
+          <input type="text" placeholder="تهران، تهران" />
+          <div class="hamburger-menu">
+            <ul>
+              <li>
+                <img src="images/blue-location-icon.svg" alt="location-icon" />
+                <p class="city-name">فارس، شیراز</p>
+              </li>
+              <li>
+                <img src="images/blue-location-icon.svg" alt="location-icon" />
+                <p class="city-name">گیلان، رشت</p>
+              </li>
+              <li>
+                <img src="images/blue-location-icon.svg" alt="location-icon" />
+                <p class="city-name">خراسان رضوی، مشهد</p>
+              </li>
+              <li>
+                <img src="images/blue-location-icon.svg" alt="location-icon" />
+                <p class="city-name">خوزستان، اهواز</p>
+              </li>
+            </ul>
+          </div>
+        </form>
+      </div>
+      <div class="date">سه شنبه 14 شهریور</div>
+    </header>
+    <!-- MAIN -->
+    <main>
+      <div class="weather">
+        <!-- Today's Weather -->
+        <nav class="today-weather">
+          <ul>
+            <li class="weather-icon">
+              <img
+                src="images/moon-cloud-angled-rain.png"
+                alt="moon-cloud-angled-rain"
+              />
+            </li>
+            <li class="degree">14&deg;</li>
+            <li class="weather-description">باران ملایم</li>
+            <li class="min-and-max">
+              <div class="max">21&deg; حداکثر</div>
+              <div class="min">14&deg; حداقل</div>
+            </li>
+          </ul>
+        </nav>
+        <!-- Weather of the Week -->
+        <div class="weather-of-the-week">
+          <div class="title">
+            <img src="images/calendar-icon.svg" alt="calender-icon" />
+            <p>پیش بینی روزهای آینده</p>
+          </div>
+          <nav class="details">
+            <ul>
+              <li>
+                <ul>
+                  <li>چهارشنبه</li>
+                  <li>
+                    <img
+                      src="images/cloud-little-rain.png"
+                      alt="cloud-little-rain"
+                    />
+                  </li>
+                  <li>18&deg; حداکثر</li>
+                  <li>11&deg; حداقل</li>
+                </ul>
+              </li>
+              <li>
+                <ul>
+                  <li>پنج شنبه</li>
+                  <li>
+                    <img src="images/cloud-mid-rain.png" alt="cloud-mid-rain" />
+                  </li>
+                  <li>15&deg; حداکثر</li>
+                  <li>10&deg; حداقل</li>
+                </ul>
+              </li>
+              <li>
+                <ul>
+                  <li>جمعه</li>
+                  <li>
+                    <img src="images/cloud-3-zap.png" alt="cloud-3-zap" />
+                  </li>
+                  <li>12&deg; حداکثر</li>
+                  <li>7&deg; حداقل</li>
+                </ul>
+              </li>
+              <li>
+                <ul>
+                  <li>شنبه</li>
+                  <li>
+                    <img
+                      src="images/cloud-angled-rain.png"
+                      alt="cloud-angled-rain"
+                    />
+                  </li>
+                  <li>9&deg; حداکثر</li>
+                  <li>5&deg; حداقل</li>
+                </ul>
+              </li>
+              <li>
+                <ul>
+                  <li>یکشنبه</li>
+                  <li>
+                    <img
+                      src="images/sun-cloud-mid-rain.png"
+                      alt="sun-cloud-mid-rain"
+                    />
+                  </li>
+                  <li>14&deg; حداکثر</li>
+                  <li>11&deg; حداقل</li>
+                </ul>
+              </li>
+              <li>
+                <ul>
+                  <li>دوشنبه</li>
+                  <li>
+                    <img
+                      src="images/sun-cloud-hailstone.png"
+                      alt="sun-cloud-hailstone"
+                    />
+                  </li>
+                  <li>24&deg; حداکثر</li>
+                  <li>17&deg; حداقل</li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
